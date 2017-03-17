@@ -6,7 +6,7 @@ It's an i3lock wrapper, it grabs a screenshot from your DE, blurs it
 and specifies it as the background image for i3lock.
 
 ### What's up with the name?
-Ever been locked out of your computer? Yeah that feeling.
+Ever been locked out of your device? I figured the name would sum up the feeling.
 
 ### Show it to me!
 When invoked, it'll leave you with a screen similar to:
