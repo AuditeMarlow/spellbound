@@ -6,7 +6,7 @@ It's an i3lock wrapper, it grabs a screenshot from your DE, blurs it
 and specifies it as the background image for i3lock.
 
 ### Show it to me!
-When invoked, it'll leave you with a screen similar to
+When invoked, it'll leave you with a screen similar to:
 ![example](https://raw.githubusercontent.com/vswarte/spellbound/master/example.png)
 Where you can (as per usual) just start mashing in your password.
 
