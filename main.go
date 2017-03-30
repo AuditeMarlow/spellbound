@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	blurSigma      = 3.0
+	blurSigma      = 5.0
 	backgroundName = ".lock-bg.png"
 )
 
