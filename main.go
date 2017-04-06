@@ -3,21 +3,22 @@ package main
 import (
 	"github.com/BurntSushi/xgb"
 	"github.com/BurntSushi/xgb/xproto"
+	"github.com/disintegration/imaging"
+
 	"image"
 	"os"
 	"os/exec"
-
-	"github.com/disintegration/imaging"
 )
 
 var (
 	blurSigma      = 5.0
-	backgroundName = ".lock-bg.png"
+	spellboundPath = ".spellbound"
+	lockFile       = "lock.png"
 )
 
 func main() {
 	home := os.Getenv("HOME")
-	backgroundPath := home + "/" + backgroundName
+	backgroundPath := home + "/" + spellboundPath + "/" + lockFile
 
 	screenshot, err := captureScreen()
 	if err != nil {
